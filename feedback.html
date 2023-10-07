@@ -17,3 +17,15 @@
             <li><a href="feedback.html">Feedback</a></li>
         </ul>
     </nav>
+        <div class="container">
+            <h2>Feedback Form</h2>
+            <form action="process_feedback.php" method="POST">
+                <label for="name">Navn:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
